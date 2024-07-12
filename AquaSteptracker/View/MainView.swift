@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct MainView: View {
+    @StateObject var waterViewModel = WaterViewModel()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color.main.ignoresSafeArea()
+            VStack {
+                
+                //Top toollbar
+                ToolbarView(vm: waterViewModel)
+                if waterViewModel.toolbarTag == 1{
+                    WaterView()
+                }
+                Spacer()
+            }.padding()
+        }.animation(.easeInOut, value: waterViewModel.toolbarTag)
     }
 }
 

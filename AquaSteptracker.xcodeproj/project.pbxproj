@@ -14,6 +14,13 @@
 		30C0CC902C41BC2F00D194B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30C0CC8F2C41BC2F00D194B0 /* Assets.xcassets */; };
 		30C0CC932C41BC2F00D194B0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 30C0CC922C41BC2F00D194B0 /* Base */; };
 		30C0CC9C2C41BC5300D194B0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0CC9B2C41BC5300D194B0 /* MainView.swift */; };
+		30C0CC9F2C41BF7B00D194B0 /* ChoicebuttonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0CC9E2C41BF7B00D194B0 /* ChoicebuttonView.swift */; };
+		30C0CCA12C41C2EC00D194B0 /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0CCA02C41C2EC00D194B0 /* ToolbarView.swift */; };
+		30C0CCA42C41C34900D194B0 /* WaterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0CCA32C41C34900D194B0 /* WaterViewModel.swift */; };
+		30C0CCA72C41C5DC00D194B0 /* WaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0CCA62C41C5DC00D194B0 /* WaterView.swift */; };
+		30C0CCA92C41CB6400D194B0 /* ProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0CCA82C41CB6400D194B0 /* ProgressCircleView.swift */; };
+		30C0CCAB2C41CDF700D194B0 /* OrangeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0CCAA2C41CDF700D194B0 /* OrangeButtonView.swift */; };
+		30C0CCAE2C41CEC200D194B0 /* WaterCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0CCAD2C41CEC200D194B0 /* WaterCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		30C0CC922C41BC2F00D194B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30C0CC942C41BC2F00D194B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30C0CC9B2C41BC5300D194B0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		30C0CC9E2C41BF7B00D194B0 /* ChoicebuttonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoicebuttonView.swift; sourceTree = "<group>"; };
+		30C0CCA02C41C2EC00D194B0 /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
+		30C0CCA32C41C34900D194B0 /* WaterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterViewModel.swift; sourceTree = "<group>"; };
+		30C0CCA62C41C5DC00D194B0 /* WaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterView.swift; sourceTree = "<group>"; };
+		30C0CCA82C41CB6400D194B0 /* ProgressCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleView.swift; sourceTree = "<group>"; };
+		30C0CCAA2C41CDF700D194B0 /* OrangeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeButtonView.swift; sourceTree = "<group>"; };
+		30C0CCAD2C41CEC200D194B0 /* WaterCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,9 @@
 		30C0CC852C41BC2D00D194B0 /* AquaSteptracker */ = {
 			isa = PBXGroup;
 			children = (
+				30C0CCAC2C41CEAF00D194B0 /* Cells */,
+				30C0CCA22C41C32D00D194B0 /* ViewModels */,
+				30C0CC9D2C41BF4400D194B0 /* Helpers */,
 				30C0CC9A2C41BC4300D194B0 /* View */,
 				30C0CC862C41BC2D00D194B0 /* AppDelegate.swift */,
 				30C0CC882C41BC2D00D194B0 /* SceneDelegate.swift */,
@@ -73,9 +90,45 @@
 		30C0CC9A2C41BC4300D194B0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				30C0CCA52C41C5C800D194B0 /* Water */,
 				30C0CC9B2C41BC5300D194B0 /* MainView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		30C0CC9D2C41BF4400D194B0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				30C0CC9E2C41BF7B00D194B0 /* ChoicebuttonView.swift */,
+				30C0CCA02C41C2EC00D194B0 /* ToolbarView.swift */,
+				30C0CCA82C41CB6400D194B0 /* ProgressCircleView.swift */,
+				30C0CCAA2C41CDF700D194B0 /* OrangeButtonView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		30C0CCA22C41C32D00D194B0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				30C0CCA32C41C34900D194B0 /* WaterViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		30C0CCA52C41C5C800D194B0 /* Water */ = {
+			isa = PBXGroup;
+			children = (
+				30C0CCA62C41C5DC00D194B0 /* WaterView.swift */,
+			);
+			path = Water;
+			sourceTree = "<group>";
+		};
+		30C0CCAC2C41CEAF00D194B0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				30C0CCAD2C41CEC200D194B0 /* WaterCellView.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,10 +202,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30C0CCA72C41C5DC00D194B0 /* WaterView.swift in Sources */,
+				30C0CC9F2C41BF7B00D194B0 /* ChoicebuttonView.swift in Sources */,
 				30C0CC8B2C41BC2D00D194B0 /* ViewController.swift in Sources */,
+				30C0CCA12C41C2EC00D194B0 /* ToolbarView.swift in Sources */,
+				30C0CCAB2C41CDF700D194B0 /* OrangeButtonView.swift in Sources */,
+				30C0CCA92C41CB6400D194B0 /* ProgressCircleView.swift in Sources */,
 				30C0CC9C2C41BC5300D194B0 /* MainView.swift in Sources */,
+				30C0CCAE2C41CEC200D194B0 /* WaterCellView.swift in Sources */,
 				30C0CC872C41BC2D00D194B0 /* AppDelegate.swift in Sources */,
 				30C0CC892C41BC2D00D194B0 /* SceneDelegate.swift in Sources */,
+				30C0CCA42C41C34900D194B0 /* WaterViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
