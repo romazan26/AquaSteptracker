@@ -21,6 +21,14 @@
 		30C0CCA92C41CB6400D194B0 /* ProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0CCA82C41CB6400D194B0 /* ProgressCircleView.swift */; };
 		30C0CCAB2C41CDF700D194B0 /* OrangeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0CCAA2C41CDF700D194B0 /* OrangeButtonView.swift */; };
 		30C0CCAE2C41CEC200D194B0 /* WaterCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0CCAD2C41CEC200D194B0 /* WaterCellView.swift */; };
+		30C0CCB02C42604900D194B0 /* NewWaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0CCAF2C42604900D194B0 /* NewWaterView.swift */; };
+		30C0CCB42C42649800D194B0 /* AquaStepTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30C0CCB22C42649800D194B0 /* AquaStepTracker.xcdatamodeld */; };
+		30C0CCB62C4264E600D194B0 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0CCB52C4264E600D194B0 /* CoreDataManager.swift */; };
+		30C0CCB92C428FD400D194B0 /* StepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0CCB82C428FD400D194B0 /* StepsView.swift */; };
+		30C0CCBB2C428FE200D194B0 /* StepsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0CCBA2C428FE200D194B0 /* StepsViewModel.swift */; };
+		30C0CCBD2C42933A00D194B0 /* backgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0CCBC2C42933A00D194B0 /* backgroundView.swift */; };
+		30C0CCBF2C4295EA00D194B0 /* NewStepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0CCBE2C4295EA00D194B0 /* NewStepsView.swift */; };
+		30C0CCC12C4296AA00D194B0 /* StepsCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0CCC02C4296AA00D194B0 /* StepsCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +48,14 @@
 		30C0CCA82C41CB6400D194B0 /* ProgressCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleView.swift; sourceTree = "<group>"; };
 		30C0CCAA2C41CDF700D194B0 /* OrangeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeButtonView.swift; sourceTree = "<group>"; };
 		30C0CCAD2C41CEC200D194B0 /* WaterCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCellView.swift; sourceTree = "<group>"; };
+		30C0CCAF2C42604900D194B0 /* NewWaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWaterView.swift; sourceTree = "<group>"; };
+		30C0CCB32C42649800D194B0 /* AquaStepTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AquaStepTracker.xcdatamodel; sourceTree = "<group>"; };
+		30C0CCB52C4264E600D194B0 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		30C0CCB82C428FD400D194B0 /* StepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
+		30C0CCBA2C428FE200D194B0 /* StepsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsViewModel.swift; sourceTree = "<group>"; };
+		30C0CCBC2C42933A00D194B0 /* backgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backgroundView.swift; sourceTree = "<group>"; };
+		30C0CCBE2C4295EA00D194B0 /* NewStepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStepsView.swift; sourceTree = "<group>"; };
+		30C0CCC02C4296AA00D194B0 /* StepsCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +88,7 @@
 		30C0CC852C41BC2D00D194B0 /* AquaSteptracker */ = {
 			isa = PBXGroup;
 			children = (
+				30C0CCB12C42647300D194B0 /* CoreData */,
 				30C0CCAC2C41CEAF00D194B0 /* Cells */,
 				30C0CCA22C41C32D00D194B0 /* ViewModels */,
 				30C0CC9D2C41BF4400D194B0 /* Helpers */,
@@ -90,6 +107,7 @@
 		30C0CC9A2C41BC4300D194B0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				30C0CCB72C428FBD00D194B0 /* Step */,
 				30C0CCA52C41C5C800D194B0 /* Water */,
 				30C0CC9B2C41BC5300D194B0 /* MainView.swift */,
 			);
@@ -103,6 +121,7 @@
 				30C0CCA02C41C2EC00D194B0 /* ToolbarView.swift */,
 				30C0CCA82C41CB6400D194B0 /* ProgressCircleView.swift */,
 				30C0CCAA2C41CDF700D194B0 /* OrangeButtonView.swift */,
+				30C0CCBC2C42933A00D194B0 /* backgroundView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -110,6 +129,7 @@
 		30C0CCA22C41C32D00D194B0 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				30C0CCBA2C428FE200D194B0 /* StepsViewModel.swift */,
 				30C0CCA32C41C34900D194B0 /* WaterViewModel.swift */,
 			);
 			path = ViewModels;
@@ -119,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				30C0CCA62C41C5DC00D194B0 /* WaterView.swift */,
+				30C0CCAF2C42604900D194B0 /* NewWaterView.swift */,
 			);
 			path = Water;
 			sourceTree = "<group>";
@@ -127,8 +148,27 @@
 			isa = PBXGroup;
 			children = (
 				30C0CCAD2C41CEC200D194B0 /* WaterCellView.swift */,
+				30C0CCC02C4296AA00D194B0 /* StepsCellView.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		30C0CCB12C42647300D194B0 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				30C0CCB22C42649800D194B0 /* AquaStepTracker.xcdatamodeld */,
+				30C0CCB52C4264E600D194B0 /* CoreDataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		30C0CCB72C428FBD00D194B0 /* Step */ = {
+			isa = PBXGroup;
+			children = (
+				30C0CCB82C428FD400D194B0 /* StepsView.swift */,
+				30C0CCBE2C4295EA00D194B0 /* NewStepsView.swift */,
+			);
+			path = Step;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,15 +244,23 @@
 			files = (
 				30C0CCA72C41C5DC00D194B0 /* WaterView.swift in Sources */,
 				30C0CC9F2C41BF7B00D194B0 /* ChoicebuttonView.swift in Sources */,
+				30C0CCB02C42604900D194B0 /* NewWaterView.swift in Sources */,
+				30C0CCBF2C4295EA00D194B0 /* NewStepsView.swift in Sources */,
 				30C0CC8B2C41BC2D00D194B0 /* ViewController.swift in Sources */,
 				30C0CCA12C41C2EC00D194B0 /* ToolbarView.swift in Sources */,
+				30C0CCBD2C42933A00D194B0 /* backgroundView.swift in Sources */,
 				30C0CCAB2C41CDF700D194B0 /* OrangeButtonView.swift in Sources */,
 				30C0CCA92C41CB6400D194B0 /* ProgressCircleView.swift in Sources */,
 				30C0CC9C2C41BC5300D194B0 /* MainView.swift in Sources */,
+				30C0CCB92C428FD400D194B0 /* StepsView.swift in Sources */,
 				30C0CCAE2C41CEC200D194B0 /* WaterCellView.swift in Sources */,
+				30C0CCBB2C428FE200D194B0 /* StepsViewModel.swift in Sources */,
+				30C0CCB42C42649800D194B0 /* AquaStepTracker.xcdatamodeld in Sources */,
 				30C0CC872C41BC2D00D194B0 /* AppDelegate.swift in Sources */,
 				30C0CC892C41BC2D00D194B0 /* SceneDelegate.swift in Sources */,
+				30C0CCB62C4264E600D194B0 /* CoreDataManager.swift in Sources */,
 				30C0CCA42C41C34900D194B0 /* WaterViewModel.swift in Sources */,
+				30C0CCC12C4296AA00D194B0 /* StepsCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +491,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		30C0CCB22C42649800D194B0 /* AquaStepTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				30C0CCB32C42649800D194B0 /* AquaStepTracker.xcdatamodel */,
+			);
+			currentVersion = 30C0CCB32C42649800D194B0 /* AquaStepTracker.xcdatamodel */;
+			name = AquaStepTracker.xcdatamodeld;
+			path = /Users/roman/Downloads/XcodeProgramm/AquaSteptracker/AquaSteptracker/CoreData/AquaStepTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 30C0CC7B2C41BC2D00D194B0 /* Project object */;
 }

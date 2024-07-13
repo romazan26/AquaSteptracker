@@ -1,14 +1,14 @@
 //
-//  WaterView.swift
+//  StepsView.swift
 //  AquaSteptracker
 //
-//  Created by Роман on 12.07.2024.
+//  Created by Роман on 13.07.2024.
 //
 
 import SwiftUI
 
-struct WaterView: View {
-    @StateObject var vm: WaterViewModel
+struct StepsView: View {
+    @StateObject var vm: StepsViewModel
     var body: some View {
         ZStack(alignment: Alignment(horizontal: .leading, vertical: .top)) {
             backgroundView()
@@ -17,7 +17,7 @@ struct WaterView: View {
                 
                 //MARK: - title
                 HStack {
-                    Text("Water")
+                    Text("Steps")
                         .foregroundStyle(.white)
                         .font(.system(size: 24, weight: .heavy))
                     
@@ -35,26 +35,25 @@ struct WaterView: View {
                     .frame(width: 278, height: 278)
                 
                 ScrollView {
-                    ForEach(vm.waters) { water in
-                        WaterCellView(water: water)
+                    ForEach(vm.steps) { step in
+                       StepsCellView(step: step)
                     }
                 }
                 
                 Spacer()
                 
-                Button(action: {vm.isPresentAddWater.toggle()}, label: {
+                Button(action: {vm.isPresentAddSteps.toggle()}, label: {
                     OrangeButtonView(text: "New goal")
                 })
             }
-            if vm.isPresentAddWater {
-                NewWaterView(vm: vm)
+            if vm.isPresentAddSteps {
+               NewStepsView(vm: vm)
             }
         }
-        .animation(.easeIn, value: vm.isPresentAddWater)
+        .animation(.easeIn, value: vm.isPresentAddSteps)
     }
-    
 }
 
 #Preview {
-    WaterView(vm: WaterViewModel())
+    StepsView(vm: StepsViewModel())
 }

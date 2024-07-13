@@ -1,22 +1,22 @@
 //
-//  WaterCellView.swift
+//  StepsCellView.swift
 //  AquaSteptracker
 //
-//  Created by Роман on 12.07.2024.
+//  Created by Роман on 13.07.2024.
 //
 
 import SwiftUI
 
-struct WaterCellView: View {
-    let water: Water
+struct StepsCellView: View {
+    let step: Step
     var body: some View {
         VStack(spacing: 20) {
             HStack {
-                Text(Dateformatter(date: water.date ?? Date.now))
+                Text(Dateformatter(date: step.date ?? Date.now))
                 Spacer()
-                Text("\(water.value.formatted())L")
+                Text("\(step.value.formatted())k")
                 Spacer()
-                Text("\(water.procent.formatted())%")
+                Text("\(step.procent.formatted())%")
                 
             }
             Rectangle()
@@ -33,6 +33,7 @@ private func Dateformatter(date: Date) -> String{
     dateFormatter.dateFormat = "d.M.yyyy"
     return dateFormatter.string(from: date)
 }
+
 //#Preview {
-//    WaterCellView(water: Water())
+//    StepsCellView()
 //}

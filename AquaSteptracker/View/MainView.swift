@@ -9,15 +9,19 @@ import SwiftUI
 
 struct MainView: View {
     @StateObject var waterViewModel = WaterViewModel()
+    @StateObject var stepsViewModel = StepsViewModel()
     var body: some View {
         ZStack {
             Color.main.ignoresSafeArea()
             VStack {
                 
-                //Top toollbar
+                //MARK: - Top toollbar
                 ToolbarView(vm: waterViewModel)
                 if waterViewModel.toolbarTag == 1{
-                    WaterView()
+                    WaterView(vm: waterViewModel)
+                }
+                if waterViewModel.toolbarTag == 2{
+                    StepsView(vm: stepsViewModel)
                 }
                 Spacer()
             }.padding()
