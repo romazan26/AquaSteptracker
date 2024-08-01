@@ -1,14 +1,14 @@
 //
-//  StepsView.swift
+//  MatchView.swift
 //  AquaSteptracker
 //
-//  Created by Роман on 13.07.2024.
+//  Created by Роман on 01.08.2024.
 //
 
 import SwiftUI
 
-struct StepsView: View {
-    @StateObject var vm: StepsViewModel
+struct FootballView: View {
+    @StateObject var vm: FootbalViewModel
     var body: some View {
         ZStack(alignment: Alignment(horizontal: .leading, vertical: .top)) {
             backgroundView()
@@ -17,7 +17,7 @@ struct StepsView: View {
                 
                 //MARK: - title
                 HStack {
-                    Text("Steps")
+                    Text("Football")
                         .foregroundStyle(.white)
                         .font(.system(size: 24, weight: .heavy))
                     
@@ -27,30 +27,29 @@ struct StepsView: View {
                 }.padding()
                 
                 //MARK: - Progress
-                ProgressCircleView(progress: Float(vm.procent))
+                ProgressCircleView(progress: vm.statisticKD,text: "K/D")
                     .frame(width: 278, height: 278)
                 
                 ScrollView {
-                    ForEach(vm.steps) { step in
-                       StepsCellView(step: step)
+                    ForEach(vm.matchs) { match in
+                      MatchCellView(match: match)
                     }
                 }
                 
                 Spacer()
                 
                 //MARK: - New goal button
-                Button(action: {vm.isPresentAddSteps.toggle()}, label: {
-                    OrangeButtonView(text: "New goal")
+                Button(action: {vm.isPresentAddMatch.toggle()}, label: {
+                    OrangeButtonView(text: "New match")
                 })
             }
-            if vm.isPresentAddSteps {
-               NewStepsView(vm: vm)
-            }
+            .sheet(isPresented: $vm.isPresentAddMatch, content: {
+                AddMatchview(vm: vm)
+            })
         }
-        .animation(.easeIn, value: vm.isPresentAddSteps)
     }
 }
 
 #Preview {
-    StepsView(vm: StepsViewModel())
+    FootballView(vm: FootbalViewModel())
 }

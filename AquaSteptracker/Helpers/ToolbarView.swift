@@ -12,6 +12,9 @@ struct ToolbarView: View {
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 10){
+                Button(action: {vm.toolbarTag = 0}, label: {
+                    ChoicebuttonView(text: "Fotball", choice: vm.toolbarTag == 0 ? true : false)
+                })
                 Button(action: {vm.toolbarTag = 1}, label: {
                     ChoicebuttonView(text: "Water", choice: vm.toolbarTag == 1 ? true : false)
                 })

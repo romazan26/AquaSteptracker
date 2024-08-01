@@ -23,10 +23,6 @@ struct WaterView: View {
                     
                     Spacer()
                     
-                    Image(systemName: "pencil")
-                        .resizable()
-                        .frame(width: 20, height: 20)
-                        .foregroundStyle(.gray)
                     
                 }.padding()
                 

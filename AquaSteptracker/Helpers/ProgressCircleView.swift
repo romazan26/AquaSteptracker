@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ProgressCircleView: View {
     var progress: Float = 65
+    var text = "of normal"
     var body: some View {
         ZStack{
             Circle()
@@ -23,10 +24,10 @@ struct ProgressCircleView: View {
                 .rotationEffect(Angle(degrees: 120))
             
             VStack {
-                Text("\(progress.formatted())%")
+                Text(String(format: "%.0f", progress) + "%")
                     .foregroundStyle(.white)
                     .font(.system(size: 36, weight: .heavy))
-                Text("of normal").foregroundStyle(.gray)
+                Text(text).foregroundStyle(.gray)
             }
         }.padding(35)
     }

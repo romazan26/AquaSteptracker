@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30069C2D2C5BC3EE002B1A1C /* FootballView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30069C2C2C5BC3EE002B1A1C /* FootballView.swift */; };
+		30069C2F2C5BC494002B1A1C /* FootbalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30069C2E2C5BC494002B1A1C /* FootbalViewModel.swift */; };
+		30069C312C5BCDF2002B1A1C /* AddMatchview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30069C302C5BCDF2002B1A1C /* AddMatchview.swift */; };
+		30069C332C5BCFCF002B1A1C /* TeamTFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30069C322C5BCFCF002B1A1C /* TeamTFView.swift */; };
+		30069C352C5BE2F8002B1A1C /* MatchCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30069C342C5BE2F8002B1A1C /* MatchCellView.swift */; };
+		3027C98F2C5BBE430078B585 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3027C98E2C5BBE430078B585 /* LoadingView.swift */; };
+		3027C9922C5BBF780078B585 /* ProgressbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3027C9912C5BBF770078B585 /* ProgressbarView.swift */; };
+		3029476B2C48488700B67C9B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3029476A2C48488700B67C9B /* SettingsView.swift */; };
+		3029476D2C4848C000B67C9B /* SettingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3029476C2C4848C000B67C9B /* SettingButton.swift */; };
+		302947712C48491D00B67C9B /* webView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3029476E2C48491D00B67C9B /* webView.swift */; };
+		302947722C48491D00B67C9B /* WebViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3029476F2C48491D00B67C9B /* WebViewPage.swift */; };
+		306AB5202C452DDD007AFD41 /* PlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306AB51F2C452DDD007AFD41 /* PlacesView.swift */; };
+		306AB5222C452DEE007AFD41 /* PlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306AB5212C452DEE007AFD41 /* PlacesViewModel.swift */; };
+		306AB5242C452EBB007AFD41 /* PlacesCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306AB5232C452EBB007AFD41 /* PlacesCellView.swift */; };
+		306AB5262C4530DD007AFD41 /* NewPlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306AB5252C4530DD007AFD41 /* NewPlaceView.swift */; };
+		306AB5282C453253007AFD41 /* CustomTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306AB5272C453253007AFD41 /* CustomTextFieldView.swift */; };
 		30C0CC872C41BC2D00D194B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0CC862C41BC2D00D194B0 /* AppDelegate.swift */; };
 		30C0CC892C41BC2D00D194B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0CC882C41BC2D00D194B0 /* SceneDelegate.swift */; };
 		30C0CC8B2C41BC2D00D194B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0CC8A2C41BC2D00D194B0 /* ViewController.swift */; };
@@ -32,6 +48,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30069C2C2C5BC3EE002B1A1C /* FootballView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballView.swift; sourceTree = "<group>"; };
+		30069C2E2C5BC494002B1A1C /* FootbalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootbalViewModel.swift; sourceTree = "<group>"; };
+		30069C302C5BCDF2002B1A1C /* AddMatchview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMatchview.swift; sourceTree = "<group>"; };
+		30069C322C5BCFCF002B1A1C /* TeamTFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTFView.swift; sourceTree = "<group>"; };
+		30069C342C5BE2F8002B1A1C /* MatchCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCellView.swift; sourceTree = "<group>"; };
+		3027C98E2C5BBE430078B585 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		3027C9912C5BBF770078B585 /* ProgressbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressbarView.swift; sourceTree = "<group>"; };
+		3029476A2C48488700B67C9B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3029476C2C4848C000B67C9B /* SettingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingButton.swift; sourceTree = "<group>"; };
+		3029476E2C48491D00B67C9B /* webView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webView.swift; sourceTree = "<group>"; };
+		3029476F2C48491D00B67C9B /* WebViewPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewPage.swift; sourceTree = "<group>"; };
+		306AB51F2C452DDD007AFD41 /* PlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesView.swift; sourceTree = "<group>"; };
+		306AB5212C452DEE007AFD41 /* PlacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewModel.swift; sourceTree = "<group>"; };
+		306AB5232C452EBB007AFD41 /* PlacesCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesCellView.swift; sourceTree = "<group>"; };
+		306AB5252C4530DD007AFD41 /* NewPlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceView.swift; sourceTree = "<group>"; };
+		306AB5272C453253007AFD41 /* CustomTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldView.swift; sourceTree = "<group>"; };
 		30C0CC832C41BC2D00D194B0 /* AquaSteptracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AquaSteptracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30C0CC862C41BC2D00D194B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30C0CC882C41BC2D00D194B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +101,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30069C2B2C5BC3CC002B1A1C /* Matchs */ = {
+			isa = PBXGroup;
+			children = (
+				30069C2C2C5BC3EE002B1A1C /* FootballView.swift */,
+				30069C302C5BCDF2002B1A1C /* AddMatchview.swift */,
+			);
+			path = Matchs;
+			sourceTree = "<group>";
+		};
+		3027C9902C5BBE470078B585 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				3027C98E2C5BBE430078B585 /* LoadingView.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		302947702C48491D00B67C9B /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				3029476E2C48491D00B67C9B /* webView.swift */,
+				3029476F2C48491D00B67C9B /* WebViewPage.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		306AB51E2C452DC1007AFD41 /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				306AB51F2C452DDD007AFD41 /* PlacesView.swift */,
+				306AB5252C4530DD007AFD41 /* NewPlaceView.swift */,
+			);
+			path = Places;
+			sourceTree = "<group>";
+		};
 		30C0CC7A2C41BC2D00D194B0 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +155,7 @@
 		30C0CC852C41BC2D00D194B0 /* AquaSteptracker */ = {
 			isa = PBXGroup;
 			children = (
+				302947702C48491D00B67C9B /* WebView */,
 				30C0CCB12C42647300D194B0 /* CoreData */,
 				30C0CCAC2C41CEAF00D194B0 /* Cells */,
 				30C0CCA22C41C32D00D194B0 /* ViewModels */,
@@ -107,9 +175,13 @@
 		30C0CC9A2C41BC4300D194B0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				30069C2B2C5BC3CC002B1A1C /* Matchs */,
+				3027C9902C5BBE470078B585 /* Loading */,
+				306AB51E2C452DC1007AFD41 /* Places */,
 				30C0CCB72C428FBD00D194B0 /* Step */,
 				30C0CCA52C41C5C800D194B0 /* Water */,
 				30C0CC9B2C41BC5300D194B0 /* MainView.swift */,
+				3029476A2C48488700B67C9B /* SettingsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -122,6 +194,10 @@
 				30C0CCA82C41CB6400D194B0 /* ProgressCircleView.swift */,
 				30C0CCAA2C41CDF700D194B0 /* OrangeButtonView.swift */,
 				30C0CCBC2C42933A00D194B0 /* backgroundView.swift */,
+				306AB5272C453253007AFD41 /* CustomTextFieldView.swift */,
+				3029476C2C4848C000B67C9B /* SettingButton.swift */,
+				3027C9912C5BBF770078B585 /* ProgressbarView.swift */,
+				30069C322C5BCFCF002B1A1C /* TeamTFView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -131,6 +207,8 @@
 			children = (
 				30C0CCBA2C428FE200D194B0 /* StepsViewModel.swift */,
 				30C0CCA32C41C34900D194B0 /* WaterViewModel.swift */,
+				306AB5212C452DEE007AFD41 /* PlacesViewModel.swift */,
+				30069C2E2C5BC494002B1A1C /* FootbalViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -149,6 +227,8 @@
 			children = (
 				30C0CCAD2C41CEC200D194B0 /* WaterCellView.swift */,
 				30C0CCC02C4296AA00D194B0 /* StepsCellView.swift */,
+				306AB5232C452EBB007AFD41 /* PlacesCellView.swift */,
+				30069C342C5BE2F8002B1A1C /* MatchCellView.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -243,24 +323,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				30C0CCA72C41C5DC00D194B0 /* WaterView.swift in Sources */,
+				30069C2D2C5BC3EE002B1A1C /* FootballView.swift in Sources */,
 				30C0CC9F2C41BF7B00D194B0 /* ChoicebuttonView.swift in Sources */,
+				302947722C48491D00B67C9B /* WebViewPage.swift in Sources */,
+				30069C2F2C5BC494002B1A1C /* FootbalViewModel.swift in Sources */,
 				30C0CCB02C42604900D194B0 /* NewWaterView.swift in Sources */,
 				30C0CCBF2C4295EA00D194B0 /* NewStepsView.swift in Sources */,
+				3029476D2C4848C000B67C9B /* SettingButton.swift in Sources */,
 				30C0CC8B2C41BC2D00D194B0 /* ViewController.swift in Sources */,
 				30C0CCA12C41C2EC00D194B0 /* ToolbarView.swift in Sources */,
+				306AB5202C452DDD007AFD41 /* PlacesView.swift in Sources */,
 				30C0CCBD2C42933A00D194B0 /* backgroundView.swift in Sources */,
+				306AB5242C452EBB007AFD41 /* PlacesCellView.swift in Sources */,
+				3027C9922C5BBF780078B585 /* ProgressbarView.swift in Sources */,
 				30C0CCAB2C41CDF700D194B0 /* OrangeButtonView.swift in Sources */,
+				30069C352C5BE2F8002B1A1C /* MatchCellView.swift in Sources */,
 				30C0CCA92C41CB6400D194B0 /* ProgressCircleView.swift in Sources */,
+				306AB5282C453253007AFD41 /* CustomTextFieldView.swift in Sources */,
 				30C0CC9C2C41BC5300D194B0 /* MainView.swift in Sources */,
 				30C0CCB92C428FD400D194B0 /* StepsView.swift in Sources */,
 				30C0CCAE2C41CEC200D194B0 /* WaterCellView.swift in Sources */,
+				3029476B2C48488700B67C9B /* SettingsView.swift in Sources */,
+				306AB5262C4530DD007AFD41 /* NewPlaceView.swift in Sources */,
 				30C0CCBB2C428FE200D194B0 /* StepsViewModel.swift in Sources */,
+				302947712C48491D00B67C9B /* webView.swift in Sources */,
 				30C0CCB42C42649800D194B0 /* AquaStepTracker.xcdatamodeld in Sources */,
 				30C0CC872C41BC2D00D194B0 /* AppDelegate.swift in Sources */,
 				30C0CC892C41BC2D00D194B0 /* SceneDelegate.swift in Sources */,
 				30C0CCB62C4264E600D194B0 /* CoreDataManager.swift in Sources */,
+				3027C98F2C5BBE430078B585 /* LoadingView.swift in Sources */,
+				306AB5222C452DEE007AFD41 /* PlacesViewModel.swift in Sources */,
+				30069C312C5BCDF2002B1A1C /* AddMatchview.swift in Sources */,
 				30C0CCA42C41C34900D194B0 /* WaterViewModel.swift in Sources */,
 				30C0CCC12C4296AA00D194B0 /* StepsCellView.swift in Sources */,
+				30069C332C5BCFCF002B1A1C /* TeamTFView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +510,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AquaSteptracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "AquaStep Tracker app";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -425,7 +522,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = home.AquaSteptracker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aquastep.danylo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -446,6 +543,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AquaSteptracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "AquaStep Tracker app";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -457,7 +555,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = home.AquaSteptracker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aquastep.danylo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

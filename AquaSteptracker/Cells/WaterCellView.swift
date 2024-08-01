@@ -16,7 +16,7 @@ struct WaterCellView: View {
                 Spacer()
                 Text("\(water.value.formatted())L")
                 Spacer()
-                Text("\(water.procent.formatted())%")
+                Text(String(format: "%.0f", water.procent) + "%")
                 
             }
             Rectangle()

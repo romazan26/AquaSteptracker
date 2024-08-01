@@ -16,7 +16,7 @@ final class WaterViewModel: ObservableObject{
     @Published var waters:[Water] = []
     @Published var procent: Double = 0
     
-    @Published var toolbarTag = 1
+    @Published var toolbarTag = 0
     
     @Published var isPresentAddWater = false
     
